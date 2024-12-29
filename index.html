@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Buenard:wght@400;700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Buenard:wght@400;700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <title>Claudio Filho</title>
 </head>
 
@@ -24,22 +26,22 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item px-2">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <a class="nav-link buenardFont" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item px-2">
-                        <a class="nav-link" href="#">Experience</a>
+                        <a class="nav-link buenardFont" href="#">Experience</a>
                     </li>
                     <li class="nav-item px-2">
-                        <a class="nav-link" href="#">Skills</a>
+                        <a class="nav-link buenardFont" href="#">Skills</a>
                     </li>
                     <li class="nav-item px-2">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link buenardFont" href="#">Projects</a>
                     </li>
                     <li class="nav-item px-2">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link buenardFont" href="#">About</a>
                     </li>
                     <li class="nav-item px-2">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link buenardFont" href="#">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -47,23 +49,103 @@
     </nav>
 
     <div class="row flex-wrap-reverse m-0" id="homeContainer">
-        <div class="col-xxl-9 col-xl-8 col-lg-8 col-md-7 p-0 d-flex justify-content-center align-items-xxl-center align-items-xl-start align-items-center">
-            <div class="row m-0 w-100 h-75 d-flex justify-content-center align-items-center">
+        <div
+            class="col-xxl-9 col-xl-8 col-lg-8 col-md-7 p-0 d-flex justify-content-center align-items-xxl-center align-items-xl-start align-items-center">
+            <div class="row m-0 w-100 h-100 d-flex justify-content-center align-items-center">
                 <div class="col-xxl-5 d-flex justify-content-center justify-content-xxl-end align-items-center">
-                    <p id="nome" class="homeDescription p-3 m-0 nome-xxl">Claudio Filho</p>
+                    <p id="nome" class="jostFont p-3 m-0 nome-fs">Claudio Filho</p>
                 </div>
                 <div class="col-xxl-2 col-7 p-0 d-flex justify-content-center align-items-center">
-                    <img id="codeLogo" class="w-25 h-100 w-xxl-50 h-xxl-50" src="./assets/images/code_logo.png" alt="code logo">
+                    <img id="codeLogo" class="w-25 h-100" src="./assets/images/code_logo.png"
+                        alt="code logo">
                 </div>
                 <div class="col-xxl-3 col-7 d-flex justify-content-center align-items-center">
-                    <p id="description" class="homeDescription m-0 text-center description-xxl">
-                        <span class="highWords">Software</span> engineer with a passion for <span class="highWords">data</span>, <span class="highWords">ML</span>, and <span class="highWords">AI</span>.
+                    <p id="description" class="jostFont m-0 text-center description-fs">
+                        <span class="highWords">Software</span> engineer with a passion for <span
+                            class="highWords">data</span>, <span class="highWords">ML</span>, and <span
+                            class="highWords">AI</span>.
                     </p>
                 </div>
             </div>
         </div>
         <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-5 d-flex justify-content-md-end justify-content-center p-0">
             <img id="professionalImage" src="./assets/images/professional-img.png" alt="professional image">
+        </div>
+    </div>
+
+    <div id="experienceContainer">
+        <div class="d-flex justify-content-start">
+            <div
+                class="col-xxl-3 col-lg-4 col-md-5 col-7 subBlue rounded-bottom-right d-flex justify-content-center align-items-center">
+                <p class="m-0 px-3 subtitle jostFont">Experience</p>
+            </div>
+        </div>
+
+        <div id="carousel" class="carousel slide carousel-dark">
+            <div class="carousel-inner d-flex">
+                <div class="carousel-item active w-75 cardJob mx-auto pt-4">
+                    <div class="row">
+                        <div
+                            class="col-lg-11 col-sm-10 col-9 d-flex justify-content-center align-items-center rounded-top-left border border-end-0 nav-link buenardFontBold titleJob">
+                            <p class="m-0">Software Developer (2024 - until now)</p>
+                        </div>
+                        <div class="col-lg-1 col-sm-2 col-3 p-0 border border-start-0" style="height: 50px">
+                            <img class="img-fluid w-100 h-100" src="./assets/images/Avatar_Way2_editado.png"
+                                alt="way2 logo">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="rounded-bottom-right border border-top-0 px-4" style="background-color: white;">
+                            <ul class="py-3 m-0">
+                                <li class="buenardFont descriptionActivity text-justify">Development of two applications in Laravel, one using the Vue.JS framework on the frontend.</li>
+                                <li class="buenardFont descriptionActivity text-justify">Development of software and tools with Python, with the aim of automating processes, data analysis, API construction with Flask for integration with Laravel, etc.</li>
+                                <li class="buenardFont descriptionActivity text-justify">Management and evolution of databases using MySQL and MariaDB DBMS, including the creation of new tables and architectures. Experience in queries in SQL Server and Oracle Database.</li>
+                                <li class="buenardFont descriptionActivity text-justify">Configuration and management of Redis instances for data caching and rate limiting, ensuring high availability and low latency in operations.</li>
+                                <li class="buenardFont descriptionActivity text-justify">Task queue management in Laravel applications using Redis as a broker and Horizon for job monitoring and management.</li>
+                                <li class="buenardFont descriptionActivity text-justify">I implemented Redis and Celery in Python projects with Flask for distributed task processing.</li>
+                                <li class="buenardFont descriptionActivity text-justify">Using of Docker to manage environments in both production and development.</li>
+                                <li class="buenardFont descriptionActivity text-justify">Using GitLab and Azure Devops as remote repositories.</li>
+                                <li class="buenardFont descriptionActivity text-justify">AWS and Azure as cloud infrastructure.</li>
+                                <li class="buenardFont descriptionActivity text-justify">Using Linux as the OS for all applications</li>
+                                <li class="buenardFont descriptionActivity text-justify">One-off maintenance on small applications made in C# .NET</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item w-75 cardJob mx-auto pt-4">
+                    <div class="row">
+                        <div
+                            class="col-lg-11 col-sm-10 col-9 d-flex justify-content-center align-items-center rounded-top-left border border-end-0 nav-link buenardFontBold titleJob">
+                            <p class="m-0">SMF operator (2022 - 2024)</p>
+                        </div>
+                        <div class="col-lg-1 col-sm-2 col-3 p-0 border border-start-0" style="height: 50px">
+                            <img class="img-fluid w-100 h-100" src="./assets/images/Avatar_Way2_editado.png"
+                                alt="way2 logo">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="rounded-bottom-right border border-top-0 px-4" style="background-color: white;">
+                            <ul class="py-3 m-0">
+                                <li class="buenardFont descriptionActivity text-justify">Perform activities to support the operation of the "Plataforma Integrada de Medição" (PIM), one of Way2's software solutions, aimed at monitoring and intelligent data management for billing electricity from generators that are regulated by the Câmara de "Comercialização de Energia Elétrica" (CCEE).</li>
+                                <li class="buenardFont descriptionActivity text-justify">Monitoring the measurement of points connected to SIN and SISOL.</li>
+                                <li class="buenardFont descriptionActivity text-justify">Monitoring of MUST and MUSD of customers with contracted demand, aiming to identify possible exceedances during the month.</li>
+                                <li class="buenardFont descriptionActivity text-justify">Participation and creation of Dashboards using JavaScript (Flot JS), HTML, CSS for clients to monitor generation, consumption and operation with different forms of visualization, seeking to meet the specificities of each client.</li>
+                                <li class="buenardFont descriptionActivity text-justify">Development of tools and applications in Python to identify, predict and analyze customer energy data. The main objective is to detect and correct possible inconsistencies in the CCEE, in addition to contributing to increasing the efficiency of our operations team's service.</li>
+                                <li class="buenardFont descriptionActivity text-justify">Development of dashboards in PowerBI with the aim of improving the visualization of essential internal indicators for our operations team, including alarms, deadlines and others.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </div>
 

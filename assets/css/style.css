@@ -19,43 +19,133 @@
     font-size: 24px;
 }
 
-@media (min-width: 1200px) {
-    .w-xxl-50 {
-        width: 20% !important;
-    }
-    .h-xxl-50 {
-        height: 10% !important;
-    }
-    .nome-xxl {
-        font-size: 48px !important;
-    }
-    .description-xxl {
-        font-size: 32px !important;
-    }
+#experienceContainer {
+    background-color: #F8F8F8;
+}
+
+#carousel {
+    height: 34rem;
 }
 
 @media (min-width: 1400px) {
-    .w-xxl-50 {
+    #codeLogo {
         width: 50% !important;
-    }
-    .h-xxl-50 {
         height: 50% !important;
     }
+    .cardJob {
+        width: 50% !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    #carousel {
+        height: 31rem !important;
+    }
+    .titleJob {
+        font-size: 20px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    #nome {
+        font-size: 48px !important;
+    }
+    #description {
+        font-size: 32px !important;
+    }
+    .subtitle {
+        font-size: 48px !important;
+    }
+
+    .descriptionActivity {
+        font-size: 16px !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+    #carousel {
+        height: 30rem !important;
+    }
+    .titleJob {
+        font-size: 20px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+    #carousel {
+        height: 27rem !important;
+    }
+    .titleJob {
+        font-size: 20px !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+    #carousel {
+        height: 30rem !important;
+    }
+    .titleJob {
+        font-size: 16px !important;
+    }
+}
+
+.text-justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.subBlue {
+    background-color: #222831;
+}
+
+.subtitle {
+    color: white;
+    font-size: 36px;
+}
+
+.rounded-top-left {
+    border-top-left-radius: 20px;
+}
+
+.rounded-bottom-right {
+    border-bottom-right-radius: 20px;
+}
+
+.rounded-bottom-left {
+    border-bottom-left-radius: 20px;
 }
 
 .highWords {
     color: #F05454;
 }
 
-.homeDescription {
+.jostFont {
     font-family: "Jost", serif;
     font-weight: 700;
     font-style: normal;
 }
 
-.nav-link {
+.buenardFont {
     font-family: "Buenard", serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.buenardFontBold {
+    font-family: "Buenard", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.nav-link {
     font-size: 24px;
+}
+
+.titleJob {
+    background-color: #DDDDDD;
+    font-size: 14px;
+}
+
+.descriptionActivity {
+    font-size: 12px;
 }
