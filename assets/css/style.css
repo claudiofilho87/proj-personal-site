@@ -7,9 +7,14 @@
     background-color: white;
 }
 
-#professionalImage {
-    height: 20rem;
+#codeLogo {
+    width: 100px;
+    height: 100px;
 }
+
+/* #professionalImage {
+    height: 20rem;
+} */
 
 #nome {
     font-size: 32px;
@@ -25,14 +30,10 @@
 
 
 @media (min-width: 1400px) {
-    #codeLogo {
+    /* #codeLogo {
         width: 50% !important;
         height: 50% !important;
-    }
-
-    .cardJob {
-        width: 50% !important;
-    }
+    } */
 }
 
 @media (min-width: 992px) {
@@ -66,6 +67,13 @@
 
     .descriptionActivity {
         font-size: 14px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    #professionalImage {
+        width: 350px !important;
+        height: 300px !important;
     }
 }
 
