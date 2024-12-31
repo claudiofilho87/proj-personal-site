@@ -23,26 +23,15 @@
     background-color: #F8F8F8;
 }
 
-#carousel {
-    height: 45rem;
-}
 
 @media (min-width: 1400px) {
     #codeLogo {
         width: 50% !important;
         height: 50% !important;
     }
+
     .cardJob {
         width: 50% !important;
-    }
-}
-
-@media (min-width: 1200px) {
-    #carousel {
-        height: 31rem !important;
-    }
-    .titleJob {
-        font-size: 20px !important;
     }
 }
 
@@ -50,11 +39,19 @@
     #nome {
         font-size: 48px !important;
     }
+
     #description {
         font-size: 32px !important;
     }
+
     .subtitle {
         font-size: 48px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .titleJob {
+        font-size: 20px !important;
     }
 
     .descriptionActivity {
@@ -62,30 +59,13 @@
     }
 }
 
-@media (min-width: 992px) and (max-width: 1199.99px) {
-    #carousel {
-        height: 30rem !important;
-    }
-    .titleJob {
-        font-size: 20px !important;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991.99px) {
-    #carousel {
-        height: 27rem !important;
-    }
-    .titleJob {
-        font-size: 20px !important;
-    }
-}
-
 @media (min-width: 576px) and (max-width: 767.99px) {
-    #carousel {
-        height: 30rem !important;
-    }
     .titleJob {
-        font-size: 16px !important;
+        font-size: 18px !important;
+    }
+
+    .descriptionActivity {
+        font-size: 14px !important;
     }
 }
 
@@ -101,10 +81,6 @@
 .subtitle {
     color: white;
     font-size: 36px;
-}
-
-.rounded-top-left {
-    border-top-left-radius: 20px;
 }
 
 .rounded-bottom-right {
@@ -142,10 +118,13 @@
 }
 
 .titleJob {
-    background-color: #DDDDDD;
     font-size: 14px;
 }
 
 .descriptionActivity {
     font-size: 12px;
+}
+
+.job {
+background-color: #EEEEEE;
 }
