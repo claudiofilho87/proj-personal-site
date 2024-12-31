@@ -12,10 +12,6 @@
     height: 100px;
 }
 
-/* #professionalImage {
-    height: 20rem;
-} */
-
 #nome {
     font-size: 32px;
 }
@@ -28,13 +24,22 @@
     background-color: #F8F8F8;
 }
 
-
-@media (min-width: 1400px) {
-    /* #codeLogo {
-        width: 50% !important;
-        height: 50% !important;
-    } */
+/* #phpLogo {
+    width: 70px;
 }
+
+#pythonLogo {
+    width: 72px;
+}
+
+#laravelLogo {
+    width: 45px;
+}
+
+#jsLogo {
+    width: 45px;
+} */
+
 
 @media (min-width: 992px) {
     #nome {
@@ -77,6 +82,12 @@
     }
 }
 
+@media (max-width: 450px) {
+    .skill {
+        height: 30px !important;
+    }
+}
+
 .text-justify {
     text-align: justify;
     text-justify: inter-word;
@@ -84,6 +95,10 @@
 
 .subBlue {
     background-color: #222831;
+}
+
+.subRed {
+    background-color: #F05454;
 }
 
 .subtitle {
@@ -122,17 +137,21 @@
 }
 
 .nav-link {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .titleJob {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .descriptionActivity {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .job {
-background-color: #EEEEEE;
+    background-color: #EEEEEE;
+}
+
+.skill {
+    height: 45px;
 }
