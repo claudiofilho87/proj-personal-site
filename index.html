@@ -56,7 +56,7 @@
                 <div class="container">
                     <div class="row justify-content-evenly align-items-center m-0">
                         <div class="col-xxl-4 d-flex justify-content-center p-0">
-                            <p id="nome" class="jostFont p-0 m-0 nome-fs">Claudio Filho</p>
+                            <p id="nome" class="jostFont p-0 m-0">Claudio Filho</p>
                         </div>
                         <div class="col-xxl-2  d-flex justify-content-center p-0">
                             <img id="codeLogo" src="./assets/images/code_logo.png" alt="code logo">
@@ -77,7 +77,6 @@
             </div>
         </div>
     </div>
-
 
     <div id="experienceContainer">
         <div class="d-flex justify-content-start">
@@ -361,7 +360,8 @@
                 <div class="col-lg-3 col mb-4">
                     <div class="row m-0 skill">
                         <div class="col-4 d-flex justify-content-center align-items-center h-100">
-                            <img src="./assets/images/Docker_logo_logos-512.png" class="img-fluid h-100" alt="docker logo">
+                            <img src="./assets/images/Docker_logo_logos-512.png" class="img-fluid h-100"
+                                alt="docker logo">
                         </div>
                         <div class="col-8 d-flex justify-content-start align-items-center h-100 ps-0">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="gold" class="bi bi-star h-75"
@@ -463,7 +463,8 @@
                 <div class="col-lg-3 col mb-4">
                     <div class="row m-0 skill">
                         <div class="col-4 d-flex justify-content-center align-items-center h-100">
-                            <img src="./assets/images/Amazon_Web_Services_Logo.svg.png" class="img-fluid h-100" alt="aws logo">
+                            <img src="./assets/images/Amazon_Web_Services_Logo.svg.png" class="img-fluid h-100"
+                                alt="aws logo">
                         </div>
                         <div class="col-8 d-flex justify-content-start align-items-center h-100 ps-0">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="gold" class="bi bi-star h-75"
@@ -497,7 +498,8 @@
                 <div class="col-lg-3 col mb-4">
                     <div class="row m-0 skill">
                         <div class="col-4 d-flex justify-content-center align-items-center h-100">
-                            <img src="./assets/images/Scikit_learn_logo_small.svg.png" class="img-fluid h-100" alt="scikit logo">
+                            <img src="./assets/images/Scikit_learn_logo_small.svg.png" class="img-fluid h-100"
+                                alt="scikit logo">
                         </div>
                         <div class="col-8 d-flex justify-content-start align-items-center h-100 ps-0">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="gold" class="bi bi-star h-75"
@@ -531,7 +533,8 @@
                 <div class="col-lg-3 col mb-4">
                     <div class="row m-0 skill">
                         <div class="col-4 d-flex justify-content-center align-items-center h-100 pe-0">
-                            <img src="./assets/images/pngimg.com - mysql_PNG10.png" class="img-fluid h-100" alt="mysql logo">
+                            <img src="./assets/images/pngimg.com - mysql_PNG10.png" class="img-fluid h-100"
+                                alt="mysql logo">
                         </div>
                         <div class="col-8 d-flex justify-content-start align-items-center h-100 ps-0">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="gold" class="bi bi-star h-75"
@@ -565,7 +568,8 @@
                 <div class="col-lg-3 col mb-4">
                     <div class="row m-0 skill">
                         <div class="col-4 d-flex justify-content-center align-items-center h-100">
-                            <img src="./assets/images/Kubernetes_logo_without_workmark.svg.png" class="img-fluid h-100" alt="kubernets logo">
+                            <img src="./assets/images/Kubernetes_logo_without_workmark.svg.png" class="img-fluid h-100"
+                                alt="kubernets logo">
                         </div>
                         <div class="col-8 d-flex justify-content-start align-items-center h-100 ps-0">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="gold" class="bi bi-star h-75"
@@ -633,6 +637,60 @@
             </div>
         </div>
 
+    </div>
+
+    <div id="projectsContainer">
+        <div class="d-flex justify-content-start">
+            <div
+                class="col-xxl-3 col-lg-4 col-md-5 col-7 subBlue rounded-bottom-right d-flex justify-content-center align-items-center">
+                <p class="m-0 px-3 subtitle jostFont">Projects</p>
+            </div>
+        </div>
+        <div id="projects" class="carousel carousel-dark slide mb-6">
+            <div class="carousel-inner py-4 d-flex align-items-center">
+                <div class="carousel-item active">
+                    <div class="container d-flex justify-content-around">
+                        <div class="container w-100">
+                            <div class="col-lg-6 col-10 mb-4 px-4">
+                                <p class="buenardFontBold titleProject m-0">Desenvolvimento de um site para controle e execução de robôs da IQ Option em Python.</p>
+                            </div>
+                            <div class="col mb-4 px-4">
+                                <p class="buenardFont descriptionActivity text-justify">O projeto consistiu na criação de um site simples em design, mas com sistema completo de autenticação (login, cadastro e recuperação de senha) e uma página inicial para configurar e executar até quatro robôs simultaneamente. Desenvolvido com Laravel/PHP e MySQL, inclui uma API em Python com Flask para acionamento dos robôs e gerenciamento de execuções via Celery e Redis. A limitação de quatro robôs simultâneos foi definida com base nos recursos do servidor, mas podendo ser ajustada. O deploy foi realizado em uma VPS na Hostinger usando GitHub e Docker para gerenciar os serviços em containers.</p>
+                            </div>
+                            <div class="col px-4">
+                                <a href="#" class="btn btn-primary buenardFont descriptionActivity text-justify">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#projects" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#projects" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div id="aboutContainer">
+        <div class="d-flex justify-content-end">
+            <div
+                class="col-xxl-3 col-lg-4 col-md-5 col-7 subRed rounded-bottom-left d-flex justify-content-center align-items-center">
+                <p class="m-0 px-3 subtitle jostFont">About me</p>
+            </div>
+        </div>
+        <div class="container mt-5 mb-4">
+            <p class="buenardFont descriptionActivity text-justify">I am an electrical engineer graduated from the Federal Rural University of Pernambuco and work as a software developer at Way2 Technology, where we create innovative solutions for the energy sector. My expertise includes developing Laravel applications with Vue.js integration on the frontend, as well as building Python tools for process automation and APIs with Flask. I also manage MySQL and MariaDB databases, use Redis for caching and task queues with Horizon, and work with Docker for environment management and AWS/Azure for cloud infrastructure. I am passionate about technology and creating solutions that truly make a difference. Outside of work, I enjoy spending time with friends, playing soccer and video games, and I am a big dog lover!</p>
+        </div>
+    </div>
+
+    <div id="footerContainer">
+        <div>
+            
+        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

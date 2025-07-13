@@ -24,6 +24,14 @@
     background-color: #F8F8F8;
 }
 
+#projectsContainer {
+    background-color: #F8F8F8;
+}
+
+#footerContainer {
+    background-color: #222831;
+}
+
 /* #phpLogo {
     width: 70px;
 }
@@ -79,6 +87,10 @@
     #professionalImage {
         width: 350px !important;
         height: 300px !important;
+    }
+
+    .titleProject {
+        font-size: 18px !important;
     }
 }
 
@@ -142,6 +154,10 @@
 
 .titleJob {
     font-size: 16px;
+}
+
+.titleProject {
+    font-size: 24px;
 }
 
 .descriptionActivity {
